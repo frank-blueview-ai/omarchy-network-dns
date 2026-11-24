@@ -50,6 +50,8 @@ Open the network panel and use **DNS for this connection**. If both Ethernet and
 
 **Edit DNS profiles** opens the editor for Work, Home or Home office. Press Enter to keep a displayed value. Editing the active mode applies it immediately. Editing another mode saves it for the next switch. Ctrl+C before saving cancels the edit. Previously configured Work connections can reuse their existing domains, servers and provider. Each new NetworkManager connection has its own first-time setup.
 
+Work requires at least one internal DNS server whose IP family is enabled on the connection. If the panel no longer highlights Work after an IP family is disabled, open **Edit DNS profiles** and enter an internal resolver address for an enabled family.
+
 ### Example with an internal hostname and a public bookmark
 
 Suppose `directory.corp.example` and `admin.example.org` identify the same internal service. The internal resolver also has an internal address for `admin.example.org`. A Work configuration could use:
