@@ -1,8 +1,14 @@
-# Blue View Network DNS
+# oma-DNS-Work-Home-Configuration
 
 Save DNS settings for individual Ethernet and Wi-Fi connections in the Omarchy network panel. Work can send internal domains or individual hostnames to an organization's resolver while sending other queries to a public DNS provider. NetworkManager remembers the settings by connection UUID, so two office Wi-Fi profiles can use different DNS servers.
 
-![Network panel with Work selected and an Edit DNS profiles button](preview.png)
+## Screenshots
+
+| Network panel with Work selected | Editing a saved Work profile |
+| --- | --- |
+| [![Network panel with Automatic, Work, Home, Home office and Edit DNS profiles](screenshots/network-panel.png)](screenshots/network-panel.png) | [![Work editor showing saved domains, internal DNS servers and the public DNS provider](screenshots/work-editor.png)](screenshots/work-editor.png) |
+
+The screenshots use an example connection and documentation-only addresses. Select either image to see it at full size.
 
 ## Install
 
