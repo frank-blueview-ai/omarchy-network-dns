@@ -1,0 +1,9 @@
+{
+  "connectionDns": "DNS for this connection",
+  "Automatic": "Automatic",
+  "Work": "Work",
+  "Home": "Home",
+  "Home office": "Home office",
+  "editDnsProfiles": "Edit DNS profiles",
+  "dnsApplyFailed": "Could not apply DNS settings."
+}

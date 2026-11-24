@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "blueview.network-dns",
+  "name": "Blue View Network DNS",
+  "version": "1.0.0",
+  "author": "The Blue View Group Corporation",
+  "license": "PolyForm-Noncommercial-1.0.0 AND MIT",
+  "description": "Save and edit DNS profiles per Ethernet or Wi-Fi connection, including split DNS for work networks.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Panel.qml"},
+  "barWidget": {
+    "displayName": "Blue View Network DNS",
+    "description": "Network panel with per-connection DNS profiles",
+    "category": "Network",
+    "allowMultiple": false
+  },
+  "omarchy": {"clonedFrom": "omarchy.network"}
+}

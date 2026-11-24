@@ -1,0 +1,12 @@
+Required Notice: Copyright 2026 The Blue View Group Corporation.
+
+Blue View's additions in this standalone distribution are available under the
+PolyForm Noncommercial License 1.0.0 in LICENSE.
+
+The network panel in Panel.qml and the model in Model.js derive from the
+Omarchy 4.5.0 network panel, copyright David Heinemeier Hansson, used under MIT.
+The upstream notice and license are in LICENSES/Omarchy-MIT.txt.
+
+Contributions separately submitted by Blue View to omacom/omarchy are offered
+under that project's MIT license. Recipients of those contributions may rely
+on the MIT grant for the code so released.
